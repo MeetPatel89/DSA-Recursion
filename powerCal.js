@@ -6,7 +6,7 @@ const powerCal = (a, n) => {
     return 1;
   }
   // General case
-  return a ** 1 * powerCal(a, n - 1);
+  return a**1 * powerCal(a, n - 1);
 };
 
 console.log(powerCal(10, 4));
